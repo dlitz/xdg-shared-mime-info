@@ -3287,7 +3287,10 @@ command to generate the output files.
       <match type="string" value='eval \"exec /usr/local/bin/perl' offset="0"/>
       <match type="string" value="/bin/perl" offset="2:16"/>
       <match type="string" value="/bin/env perl" offset="2:16"/>
-      <match type="string" value="use strict" offset="0:256"/>
+      <!-- Note: don't match ECMAScript's strict-mode syntax, which is
+           "use strict"; or 'use strict'; (including quotes and semicolon) -->
+      <match type="string" value="use strict;" offset="0:256"/>
+      <match type="string" value="use strict " offset="0:256"/>
       <match type="string" value="use warnings" offset="0:256"/>
       <match type="string" value="use diagnostics" offset="0:256"/>
       <match type="string" value="use Test::" offset="0:256"/>

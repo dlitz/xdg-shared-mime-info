@@ -337,6 +337,12 @@ pyside.py text/x-python
 test.pl application/x-perl
 test.pm application/x-perl
 test.t application/x-perl
+# Not Perl
+# https://bugs.freedesktop.org/show_bug.cgi?id=63612
+js-use-strict.html application/x-perl xxx
+js-use-strict.html text/html
+js-use-strict.js application/x-perl xxx
+js-use-strict.js application/javascript ox
 # Copied from http://en.wikipedia.org/wiki/Turtle_%28syntax%29#Example
 test.ttl text/turtle ox
 # Twig template
