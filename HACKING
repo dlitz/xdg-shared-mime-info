@@ -1,5 +1,5 @@
 Note: latest version of this file is at:
-http://cgit.freedesktop.org/xdg/shared-mime-info/tree/HACKING
+https://cgit.freedesktop.org/xdg/shared-mime-info/tree/HACKING
 
 A few ground rules for people interested in adding new mime-types.
 
@@ -21,18 +21,18 @@ Translations
 ------------
 
 Translations should go through Transifex.net, and the freedesktop.org team:
-http://www.transifex.net/projects/p/shared-mime-info/
+https://www.transifex.com/freedesktop/shared-mime-info/
 
 git
 ---
 
 Check it out using:
-git clone git://anongit.freedesktop.org/xdg/shared-mime-info
+git clone https://anongit.freedesktop.org/git/xdg/shared-mime-info
 or if you have a freedesktop account:
 git clone ssh://git.freedesktop.org/git/xdg/shared-mime-info
 
 Web interface is at:
-http://cgit.freedesktop.org/xdg/shared-mime-info/
+https://cgit.freedesktop.org/xdg/shared-mime-info/
 
 Filing bugs
 -----------
@@ -64,19 +64,19 @@ You can also temporarily print the results of test-mime-data by putting your
 test files in the staging-tests/ sub-directory.
 
 [1]: Repository details at:
-http://cgit.freedesktop.org/xdg/xdgmime/
+https://cgit.freedesktop.org/xdg/xdgmime/
 
 Releasing
 ---------
 
 - Run "make update-translations" and "make check-translations" before release
 - Copy the file to ~hadess/public_html on gabe.freedesktop.org
-- Update http://www.freedesktop.org/wiki/Software/shared-mime-info
+- Update https://www.freedesktop.org/wiki/Software/shared-mime-info
 
 Updating the spec on the website
 --------------------------------
 
-- update http://cgit.freedesktop.org/xdg/xdg-specs/tree/web-export/specs.idx
+- update https://cgit.freedesktop.org/xdg/xdg-specs/tree/web-export/specs.idx
 - go to /srv/specifications.freedesktop.org/www on gabe
 - run ../update.py
 

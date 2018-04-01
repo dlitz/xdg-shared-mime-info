@@ -73,7 +73,7 @@ COPYING.
 
 The latest version is available from:
 
-	http://www.freedesktop.org/wiki/Software/shared-mime-info/
+	https://www.freedesktop.org/wiki/Software/shared-mime-info/
 
 To extend this database, users and applications should create additional
 XML files in the 'packages' directory and run the update-mime-database
@@ -479,7 +479,7 @@ command to generate the output files.
   <mime-type type="application/x-go-sgf">
     <!-- translators: a record is in this context a description of a board game
          that has been played, and that can be played back again:
-         http://www.red-bean.com/sgf/ -->
+         https://www.red-bean.com/sgf/ -->
     <_comment>SGF record</_comment>
     <acronym>SGF</acronym>
     <expanded-acronym>Smart Game Format</expanded-acronym>
@@ -6863,7 +6863,7 @@ command to generate the output files.
 
   <!-- Tree content-types -->
   <mime-type type="x-content/image-dcf">
-    <!-- http://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system -->
+    <!-- https://en.wikipedia.org/wiki/Design_rule_for_Camera_File_system -->
     <_comment>digital photos</_comment>
     <treemagic>
       <treematch path="dcim" type="directory" non-empty="true"/>
@@ -6872,7 +6872,7 @@ command to generate the output files.
 
   <mime-type type="x-content/video-vcd">
     <!-- TRANSLATORS: This is a brand-name, not a generic term. Please see
-         http://en.wikipedia.org/wiki/Video_CD
+         https://en.wikipedia.org/wiki/Video_CD
          http://www.herongyang.com/CD-DVD/VCD-Movie-File-Directory-Structure.html -->
     <_comment>Video CD</_comment>
     <treemagic>
@@ -6882,8 +6882,8 @@ command to generate the output files.
 
   <mime-type type="x-content/video-svcd">
     <!-- TRANSLATORS: This is a brand-name, not a generic term. Please see
-         http://en.wikipedia.org/wiki/Super_Video_CD
-         http://everything2.com/index.pl?node_id=1009222 -->
+         https://en.wikipedia.org/wiki/Super_Video_CD
+         https://everything2.com/index.pl?node_id=1009222 -->
     <_comment>Super Video CD</_comment>
     <treemagic>
       <treematch path="MPEG2/AVSEQ01.MPG" type="file" />
@@ -6891,7 +6891,7 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/video-dvd">
-    <!-- http://en.wikipedia.org/wiki/DVD-Video -->
+    <!-- https://en.wikipedia.org/wiki/DVD-Video -->
     <_comment>video DVD</_comment>
     <treemagic>
       <treematch path="VIDEO_TS/VIDEO_TS.IFO" type="file" />
@@ -6902,32 +6902,32 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/audio-cdda">
-    <!-- http://en.wikipedia.org/wiki/Red_Book_(audio_CD_standard) -->
+    <!-- https://en.wikipedia.org/wiki/Red_Book_(audio_CD_standard) -->
     <_comment>audio CD</_comment>
   </mime-type>
 
   <mime-type type="x-content/blank-cd">
-    <!-- http://en.wikipedia.org/wiki/Compact_Disc -->
+    <!-- https://en.wikipedia.org/wiki/Compact_Disc -->
     <_comment>blank CD disc</_comment>
   </mime-type>
 
   <mime-type type="x-content/blank-dvd">
-    <!-- http://en.wikipedia.org/wiki/DVD -->
+    <!-- https://en.wikipedia.org/wiki/DVD -->
     <_comment>blank DVD disc</_comment>
   </mime-type>
 
   <mime-type type="x-content/blank-bd">
-    <!-- http://en.wikipedia.org/wiki/Blu-ray_Disc -->
+    <!-- https://en.wikipedia.org/wiki/Blu-ray_Disc -->
     <_comment>blank Blu-ray disc</_comment>
   </mime-type>
 
   <mime-type type="x-content/blank-hddvd">
-    <!-- http://en.wikipedia.org/wiki/HD_DVD -->
+    <!-- https://en.wikipedia.org/wiki/HD_DVD -->
     <_comment>blank HD DVD disc</_comment>
   </mime-type>
 
   <mime-type type="x-content/audio-dvd">
-    <!-- http://en.wikipedia.org/wiki/DVD-Audio -->
+    <!-- https://en.wikipedia.org/wiki/DVD-Audio -->
     <_comment>audio DVD</_comment>
     <treemagic>
       <treematch path="AUDIO_TS/AUDIO_TS.IFO" type="file" />
@@ -6936,8 +6936,8 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/video-bluray">
-    <!-- http://en.wikipedia.org/wiki/Blu-ray_Disc
-         http://www.blu-raydisc.com/Section-13470/Section-13890/Index.html -->
+    <!-- https://en.wikipedia.org/wiki/Blu-ray_Disc
+         https://web.archive.org/web/20080414230620/http://www.blu-raydisc.com/Section-13470/Section-13890/Index.html -->
     <_comment>Blu-ray video disc</_comment>
     <treemagic>
       <treematch path="BDAV" type="directory" non-empty="true"/>
@@ -6946,8 +6946,8 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/video-hddvd">
-    <!-- http://en.wikipedia.org/wiki/HD_DVD
-         http://www.dvdafteredit.com/wiki/The_HVDVD_TS_Folder -->
+    <!-- https://en.wikipedia.org/wiki/HD_DVD
+         https://web.archive.org/web/20100427215323/http://www.dvdafteredit.com/wiki/The_HVDVD_TS_Folder -->
     <_comment>HD DVD video disc</_comment>
     <treemagic>
       <treematch path="HVDVD_TS/HV000I01.IFO" type="file" />
@@ -6967,8 +6967,8 @@ command to generate the output files.
 
   <mime-type type="x-content/image-picturecd">
     <!-- TRANSLATORS: This is a brand-name, not a generic term. Please see
-         http://en.wikipedia.org/wiki/Picture_CD
-         http://www.re.org/kristin/picturecd.html  -->
+         https://en.wikipedia.org/wiki/Picture_CD
+         https://web.archive.org/web/20120217173107/http://www.re.org/kristin/picturecd.html  -->
     <_comment>Picture CD</_comment>
     <treemagic>
       <treematch path="PICTURES" type="directory" non-empty="true" match-case="true"/>
@@ -6981,14 +6981,14 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/software">
-    <!-- http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
-         http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
+    <!-- https://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+         https://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
     <_comment>software</_comment>
   </mime-type>
 
   <mime-type type="x-content/unix-software">
-    <!-- http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
-         http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
+    <!-- https://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+         https://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
     <_comment>UNIX software</_comment>
     <sub-class-of type="x-content/software"/>
     <treemagic>
@@ -6999,8 +6999,8 @@ command to generate the output files.
   </mime-type>
 
   <mime-type type="x-content/win32-software">
-    <!-- http://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
-         http://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
+    <!-- https://standards.freedesktop.org/autostart-spec/autostart-spec-latest.html
+         https://bugzilla.gnome.org/show_bug.cgi?id=509823#c3 -->
     <_comment>Windows software</_comment>
     <sub-class-of type="x-content/software"/>
     <treemagic>

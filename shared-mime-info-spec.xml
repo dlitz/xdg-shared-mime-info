@@ -9,7 +9,7 @@
 <articleinfo>
 	<authorgroup>
 		<corpauthor>
-			<ulink url="http://www.freedesktop.org">
+			<ulink url="https://www.freedesktop.org">
 			X Desktop Group
 			</ulink>
 		</corpauthor>
@@ -1073,11 +1073,11 @@ Override.xml mentioned in <xref linkend="s2_layout"/>. Information such as
 
 	<bibliomixed>
 		<abbrev>GNOME</abbrev><citetitle>The GNOME desktop,
-		<ulink url="http://www.gnome.org"/></citetitle>
+		<ulink url="https://www.gnome.org"/></citetitle>
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>KDE</abbrev><citetitle>The KDE desktop,
-		<ulink url="http://www.kde.org"/></citetitle>
+		<ulink url="https://www.kde.org"/></citetitle>
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>ROX</abbrev><citetitle>The ROX desktop,
@@ -1085,30 +1085,24 @@ Override.xml mentioned in <xref linkend="s2_layout"/>. Information such as
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>DesktopEntries</abbrev><citetitle>Desktop Entry Specification,
-		<ulink url="http://www.freedesktop.org/standards/desktop-entry-spec.html"/>
+		<ulink url="https://www.freedesktop.org/standards/desktop-entry-spec.html"/>
 		</citetitle>
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>SharedMIME</abbrev><citetitle>Shared MIME-info Database,
-		<ulink url="http://www.freedesktop.org/standards/shared-mime-info.html"/>
+		<ulink url="https://www.freedesktop.org/standards/shared-mime-info.html"/>
 		</citetitle>
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>RFC-2119</abbrev>
 		<citetitle>Key words for use in RFCs to Indicate Requirement Levels,
-		<ulink url="http://www.ietf.org/rfc/rfc2119.txt?number=2119"/>
+		<ulink url="https://tools.ietf.org/html/rfc2119"/>
 		</citetitle>
 	</bibliomixed>
 	<bibliomixed>
 		<abbrev>BaseDir</abbrev>
 		<citetitle>XDG Base Directory Specification
-		<ulink url="http://www.freedesktop.org/standards/basedir/draft/basedir-spec/basedir-spec.html"/>
-		</citetitle>
-	</bibliomixed>
-	<bibliomixed>
-		<abbrev>ACAP</abbrev>
-		<citetitle>ACAP Media Type Dataset Class
-		<ulink url="ftp://ftp.ietf.org/internet-drafts/draft-ietf-acap-mediatype-01.txt"/>
+		<ulink url="https://www.freedesktop.org/standards/basedir/draft/basedir-spec/basedir-spec.html"/>
 		</citetitle>
 	</bibliomixed>
 </bibliography>
